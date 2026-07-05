@@ -1,0 +1,21 @@
+{
+  "name": "homebrew-micyou",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "bun run src/index.ts",
+    "lint": "biome check src",
+    "format": "biome check src --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.2",
+    "@types/bun": "latest",
+    "@types/semver": "^7.7.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "semver": "^7.8.5"
+  }
+}
