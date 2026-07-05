@@ -14,19 +14,24 @@
    brew tap ChouChiu/homebrew-micyou
    ```
 
-2. 安装最新稳定版：
+2. 信任 tap:
+
+   ```bash
+   brew trust chouchiu/micyou
+
+3. 安装最新稳定版：
 
    ```bash
    brew install --cask micyou
    ```
 
-3. 安装最新预发布版（alpha）：
+4. 安装最新预发布版（alpha）：
 
    ```bash
    brew install --cask micyou@alpha
    ```
 
-4. 或安装指定版本：
+5. 或安装指定版本：
 
    ```bash
    brew install --cask micyou@1.3.5
