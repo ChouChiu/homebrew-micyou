@@ -54,8 +54,7 @@ function buildVersioned(ctx: CaskContext): string {
 		metadata: { appName, bundleId },
 	} = ctx;
 
-	const caskName =
-		ctx.channel === "alpha" ? `micyou@alpha` : `micyou@${semver}`;
+	const caskName = `micyou@${semver}`;
 	const versionStr = semver;
 
 	const archBlock = buildArchBlock(ctx, false);
